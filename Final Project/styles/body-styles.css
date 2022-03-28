@@ -34,6 +34,7 @@ body{
 
 .body-wrapper > .body-content > .body-image img{
     width: 450px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.678);
 }
 
 .body-wrapper > .body-content >.body-text-wrapper{
