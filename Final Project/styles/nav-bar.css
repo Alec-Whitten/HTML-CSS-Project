@@ -1,0 +1,86 @@
+.nav-bar{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar > .left-nav-bar > .logo-image img{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.center-nav-bar-links > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.center-nav-bar-links > .links-wrapper a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-nav-bar-links > .links-wrapper > .link > .spark-link a {
+    color: gray;
+    font-weight: 0;
+    font-size: 17px;
+    padding: 25px;
+}
+
+.center-nav-bar-links > .links-wrapper > .link > .spark-link i {
+    padding-left: 10px;
+}
+
+.center-nav-bar-links > .links-wrapper > .link{
+    margin: 0px 10px 10px 10px;
+}
+
+.center-nav-bar-links > .topic{
+    color: rgb(255, 229, 82);
+    margin: 0px;
+    margin-top: 30px;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.right-nav-bar > .buttons-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+.right-nav-bar > .buttons-wrapper > .button{
+    margin: 10px;
+}
+
+.btn{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 2px;
+    outline: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button > .search-button i{
+    background-color: none;
+    color: gray;
+    font-size: 1.75rem;
+    padding: 10px;
+}
+
+.button > .btn i{
+    color: rgb(109, 255, 109);
+}

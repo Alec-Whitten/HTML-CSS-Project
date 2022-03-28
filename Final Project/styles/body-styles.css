@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+
+.body-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 45, 53);
+    letter-spacing: .5px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-wrapper > .body-content{
+    width: 1250px;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+.body-wrapper > .body-content > .body-image{
+    float: right;
+    margin-left: 100px;
+}
+
+.body-wrapper > .body-content > .body-image p{
+    color: white;
+    margin-bottom: 0px;
+}
+
+.body-wrapper > .body-content > .body-image image-topic{
+    color: cyan;
+    font-weight: 900;
+}
+
+.body-wrapper > .body-content > .body-image img{
+    width: 450px;
+}
+
+.body-wrapper > .body-content >.body-text-wrapper{
+    padding-top: 30px;
+}
+
+.body-wrapper > .body-content >.body-text-wrapper p1{
+    font-size: 30px;
+    color: rgb(207, 207, 207);
+}
+
+.body-wrapper > .body-content >.body-text-wrapper body-topic{
+    font-weight: 900;
+    color: white;
+}
+
+/* .body-wrapper > .body-content >.body-text-wrapper hand-waving{
+    color: gray;
+} */
+
+
+.body-wrapper > .body-content >.body-text-wrapper p2{
+    font-size: 20px;
+    color: rgb(168, 168, 168);
+}
+
+.body-wrapper > .body-content > .body-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.body-wrapper > .body-content > .body-button-wrapper > .body-sign-up-button{
+    padding-right: 15px;
+}
+
+.body-wrapper > .body-content > .body-button-wrapper > .body-sign-up-button > .btn{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(60, 210, 70);
+    border: 1px solid rgb(60, 210, 70);
+    border-radius: 2px;
+    outline: none;
+    white-space: nowrap;
+}
+
+.body-wrapper > .body-content > .body-button-wrapper > .learn-more-button > .btn{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    white-space: nowrap;
+}
